@@ -1,0 +1,13 @@
+
+FLAGS=-g -std=c++11 -Wall
+INC=-Iinc -I/usr/include
+LIB=-L/usr/lib/ -lsfml-system -lsfml-window -lsfml-graphics -lsfml-audio
+
+SRC=src/*.cpp
+OBJ=obj/*.o
+TO=-o bin_l/game.x
+
+build: $(OBJ)
+	g++ $(FLAGS) $(TO) 
+
+clean:
