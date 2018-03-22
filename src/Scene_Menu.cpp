@@ -14,8 +14,8 @@ void Scene_Menu::init()
     textTitle.setFont(_resources.Font("font"));
     textTitle.setString("# BUG CAVE #");
     textTitle.setCharacterSize(90);
-    textTitle.setFillColor(sf::Color::Blue);
-    textTitle.setPosition(100, 100);
+    textTitle.setFillColor(sf::Color::Yellow);
+    textTitle.setPosition(86, 100);
 
     textPlay.setFont(_resources.Font("font"));
     textPlay.setString("PLAY");
