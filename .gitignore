@@ -1,3 +1,5 @@
+.gitignore
 .vscode/
-sfml/
-Workspace.code-workspace
+bin/game.exe
+bin_l/
+build.sh
